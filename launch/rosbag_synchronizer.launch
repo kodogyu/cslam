@@ -1,0 +1,6 @@
+<launch>
+    <node name="rosbag_synchronizer" pkg="cslam" type="rosbag_synchronizer">
+        <param name="flag_continue" type="bool" value="false"/>
+    </node>
+
+</launch>
