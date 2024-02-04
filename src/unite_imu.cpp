@@ -83,7 +83,7 @@ void UniteIMU::publishImu() {
         imu_msg_.header.frame_id = "camera_imu_frame";
         
         imu_publisher_.publish(imu_msg_);
-        // ROS_INFO("===================================");
+        ROS_INFO("united imu data published");
         // ROS_INFO("header_seq: %d", imu_msg_.header.seq);
         // ROS_INFO("accel_seq: %d", accel_seq_);
         // ROS_INFO("gyro_seq: %d", gyro_seq_);

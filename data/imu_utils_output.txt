@@ -1,0 +1,103 @@
+gyr x  numData 360803          
+gyr x  start_t 1.70684e+09     
+gyr x  end_t 1.70685e+09       
+gyr x dt                       
+-------------1800 s            
+-------------30 min            
+-------------0.500001 h        
+gyr x  freq 200.445            
+gyr x  period 0.00498889       
+gyr y  numData 360803          
+gyr y  start_t 1.70684e+09     
+gyr y  end_t 1.70685e+09       
+gyr y dt                       
+-------------1800 s            
+-------------30 min            
+-------------0.500001 h        
+gyr y  freq 200.445            
+gyr y  period 0.00498889       
+gyr z  numData 360803
+gyr z  start_t 1.70684e+09
+gyr z  end_t 1.70685e+09
+gyr z dt 
+-------------1800 s
+-------------30 min
+-------------0.500001 h
+gyr z  freq 200.445
+gyr z  period 0.00498889
+Gyro X 
+C    -1.091   55.4564  -44.3919   8.05262 -0.278937
+ Bias Instability 4.26463e-05 rad/s
+ Bias Instability 5.3446e-05 rad/s, at 26.2965 s
+ White Noise 8.41051 rad/s
+ White Noise 0.00237339 rad/s
+  bias -0.151016 degree/s
+-------------------
+Gyro y 
+C  0.0377217    25.7808   0.267376  -0.119575 0.00708199
+ Bias Instability 3.0887e-09 rad/s 
+ Bias Instability 3.0887e-09 rad/s                          
+ Bias Instability 9.69291e-06 rad/s, at 284.232 s
+ White Noise 6.30046 rad/s
+ White Noise 0.0017505 rad/s
+  bias 0.0363957 degree/s
+-------------------
+Gyro z 
+C   0.348399    20.1166   -2.45137   0.475904 -0.0151636
+ Bias Instability 5.89609e-06 rad/s
+ Bias Instability 8.81126e-06 rad/s, at 284.232 s
+ White Noise 4.77447 rad/s
+ White Noise 0.00133055 rad/s
+  bias -0.0202034 degree/s
+-------------------
+==============================================
+==============================================
+acc x  numData 360803
+acc x  start_t 1.70684e+09
+acc x  end_t 1.70685e+09
+acc x dt 
+-------------1800 s
+-------------30 min
+-------------0.500001 h
+acc x  freq 200.445
+acc x  period 0.00498889
+acc y  numData 360803
+acc y  start_t 1.70684e+09
+acc y  end_t 1.70685e+09
+acc y dt 
+-------------1800 s
+-------------30 min
+-------------0.500001 h
+acc y  freq 200.445
+acc y  period 0.00498889
+acc z  numData 360803
+acc z  start_t 1.70684e+09
+acc z  end_t 1.70685e+09
+acc z dt 
+-------------1800 s
+-------------30 min
+-------------0.500001 h
+acc z  freq 200.445
+acc z  period 0.00498889
+acc X 
+C  8.34589e-05  0.000902598  -0.00031406  8.32496e-05 -2.82364e-06
+ Bias Instability 0.000208684 m/s^2
+ White Noise 0.0126575 m/s^2
+-------------------
+acc y 
+C  0.000156273  0.000445285  0.000123652  7.63095e-06 -3.65481e-07
+ Bias Instability 0.000184196 m/s^2
+ White Noise 0.0098023 m/s^2
+-------------------
+acc z 
+C  0.000928684  -0.00234689   0.00254608 -0.000343175  1.13339e-05
+ Bias Instability 0.000221832 m/s^2
+ White Noise 0.0148048 m/s^2
+-------------------
+[imu_an-1] process has finished cleanly
+log file: /home/kodogyu/.ros/log/6175a002-c161-11ee-a400-dd3b2507d23
+6/imu_an-1*.log
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
