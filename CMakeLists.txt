@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   sensor_msgs
+  rosbag
 )
 
 ## System dependencies are found with CMake's conventions
@@ -136,6 +137,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/cslam_node.cpp)
 add_executable(unite_imu src/unite_imu.cpp)
+add_executable(rosbag_synchronizer src/rosbag_synchronizer.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -152,6 +154,7 @@ add_executable(unite_imu src/unite_imu.cpp)
 #   ${catkin_LIBRARIES}
 # )
 target_link_libraries(unite_imu ${catkin_LIBRARIES})
+target_link_libraries(rosbag_synchronizer ${catkin_LIBRARIES})
 
 #############
 ## Install ##
