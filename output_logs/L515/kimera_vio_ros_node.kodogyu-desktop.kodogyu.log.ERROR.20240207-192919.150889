@@ -1,0 +1,199 @@
+Log file created at: 2024/02/07 19:29:19
+Running on machine: kodogyu-desktop
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0207 19:29:19.678352 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+1920, 0
+0, 1920
+580.26, 432.611
+E0207 19:29:21.306188 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+594.697, 108.924
+366.269, 100.79
+-1920, -1920
+E0207 19:29:22.940430 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+0, 1920
+148.577, 153.224
+174.541, 232.296
+E0207 19:29:24.582659 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+0, 1920
+493.418, 479.175
+601.096, 472.776
+E0207 19:29:26.442584 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+-1920, -1920
+372.536, 73.2735
+54.3259, 10.7928
+E0207 19:29:28.071543 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+535.041, 398.07
+0, 1920
+322.759, 388.529
+E0207 19:29:29.712795 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+0, 1920
+266.195, 419.603
+432.64, 429.411
+E0207 19:29:31.344718 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+0, 1920
+1920, 0
+-1920, -1920
+E0207 19:29:32.975965 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+-1920, -1920
+1920, 0
+94.7056, 29.2984
+E0207 19:29:34.845090 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+0, 1920
+-1920, -1920
+62.0366, 189.819
+E0207 19:29:36.708860 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+1920, 0
+0, 1920
+610.321, 414.611
+E0207 19:29:38.573057 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+1920, 0
+628.527, 127.388
+73.3381, 10.2384
+E0207 19:29:40.448212 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+0, 1920
+-1920, -1920
+64.5003, 340.312
+E0207 19:29:42.311223 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+72.8166, 395.471
+348.63, 474.344
+0, 1920
+E0207 19:29:43.706611 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.706635 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.706647 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.706658 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.706676 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.706694 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.706715 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.706729 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.940024 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+333.848, 36.6909
+1920, 0
+596.425, 104.02
+E0207 19:29:43.940099 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.940119 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.940136 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:43.940148 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176570 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176594 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176641 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176662 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176674 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176687 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176702 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.176717 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641680 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641701 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641716 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641731 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641744 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641772 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641783 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641798 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641819 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641867 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641882 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641897 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641911 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641925 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641938 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641952 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641968 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641981 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.641996 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.642010 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.642024 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.642037 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870795 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870815 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870826 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870838 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870848 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870860 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870869 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870882 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870893 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870904 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870932 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870950 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870965 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870980 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.870997 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871012 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871024 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871039 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871058 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871073 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871100 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871117 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:44.871135 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104245 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104269 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104279 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104287 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104296 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104305 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104316 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104327 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104337 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104346 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104354 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104367 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104383 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104391 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104419 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104429 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104441 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104454 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104462 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.104480 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340831 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340862 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340874 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340886 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340898 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340906 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340929 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340937 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340948 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340958 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.340986 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341004 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341013 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341025 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341038 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341053 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341061 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341071 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.341084 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569093 150975 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 640
+ Triangle: x, y: 
+0, 1920
+549.945, 450.93
+605.731, 448.702
+E0207 19:29:45.569130 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569141 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569151 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569167 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569176 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569206 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569226 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569239 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569248 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569257 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569265 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.
+E0207 19:29:45.569285 150975 UtilsGeometry.cpp:63] Negative radial components! Points are behind camera.

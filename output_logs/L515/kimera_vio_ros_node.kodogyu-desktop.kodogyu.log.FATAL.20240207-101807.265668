@@ -1,0 +1,4 @@
+Log file created at: 2024/02/07 10:18:07
+Running on machine: kodogyu-desktop
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0207 10:18:07.170399 265668 RgbdImuPipeline.cpp:70] useStereoTracking is set to false, but is required for RGBD!

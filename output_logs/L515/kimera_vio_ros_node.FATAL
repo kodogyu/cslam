@@ -1,0 +1,4 @@
+Log file created at: 2024/02/07 15:58:50
+Running on machine: kodogyu-desktop
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0207 15:58:50.186691 655184 ImuFrontendParams.cpp:50] parseImuData: we expected identity body_Pose_cam_: is everything ok?

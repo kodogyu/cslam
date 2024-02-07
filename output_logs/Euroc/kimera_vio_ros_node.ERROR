@@ -1,0 +1,248 @@
+Log file created at: 2024/02/07 19:31:14
+Running on machine: kodogyu-desktop
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0207 19:31:14.343695 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+2256, 0
+0, 2256
+591.727, 435.53
+E0207 19:31:15.639261 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+2256, 0
+684.242, 186.126
+679, 124
+E0207 19:31:19.194851 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+2256, 0
+-2256, -2256
+E0207 19:31:19.996986 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+2256, 0
+683.402, 250.918
+685.943, 228.911
+E0207 19:31:20.996528 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+-2256, -2256
+121.651, 400.337
+E0207 19:31:21.805356 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+425, 452
+0, 2256
+342.301, 448.707
+E0207 19:31:22.799875 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+-2256, -2256
+2256, 0
+354.712, 12.5742
+E0207 19:31:23.597093 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+348.61, 448.098
+0, 2256
+278.265, 452.255
+E0207 19:31:24.603659 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+171, 436
+191.458, 445.187
+E0207 19:31:25.398912 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+684.758, 100.849
+2256, 0
+689.239, 269.82
+E0207 19:31:26.198662 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+-2256, -2256
+168.673, 22.2083
+134.209, 27.6656
+E0207 19:31:27.005851 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+152.367, 34.8032
+-2256, -2256
+418.674, 12.6594
+E0207 19:31:27.998670 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+2256, 0
+579, 36
+552.973, 21.054
+E0207 19:31:28.798981 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+225.356, 23.1178
+-2256, -2256
+302.973, 10.5799
+E0207 19:31:29.593614 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+106.126, 211.459
+-2256, -2256
+102.124, 180.722
+E0207 19:31:30.402972 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+-2256, -2256
+171.067, 19.3677
+151.983, 22.9419
+E0207 19:31:31.399092 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+-2256, -2256
+2256, 0
+668.868, 44.6941
+E0207 19:31:32.198661 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+596.551, 412.377
+0, 2256
+478.389, 443.99
+E0207 19:31:32.999783 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+104.649, 430.528
+-2256, -2256
+83.391, 308.85
+E0207 19:31:34.001443 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+2256, 0
+-2256, -2256
+E0207 19:31:34.798588 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+118.988, 434.426
+140.662, 439.793
+E0207 19:31:35.601051 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+631.398, 50.9583
+575.367, 21.2699
+2256, 0
+E0207 19:31:36.392743 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+680.394, 395.275
+681.662, 262.764
+2256, 0
+E0207 19:31:37.197885 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+686.743, 111.228
+2256, 0
+685.052, 165.107
+E0207 19:31:38.196378 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+-2256, -2256
+2256, 0
+593.461, 36.5743
+E0207 19:31:38.999262 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+672.82, 411.012
+0, 2256
+615.3, 436.778
+E0207 19:31:39.801466 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+2256, 0
+659.949, 159.416
+536.086, 69.3467
+E0207 19:31:40.801460 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+102.268, 236.453
+101.393, 383.153
+-2256, -2256
+E0207 19:31:41.794457 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+130.872, 416.541
+176.735, 432.557
+E0207 19:31:42.810398 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+500, 440
+637, 429
+0, 2256
+E0207 19:31:43.802389 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+2256, 0
+-2256, -2256
+E0207 19:31:44.616364 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+692.268, 354.343
+2256, 0
+673.684, 403.464
+E0207 19:31:45.599459 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+2256, 0
+-2256, -2256
+E0207 19:31:46.396440 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+457.208, 450.176
+0, 2256
+407.238, 448.342
+E0207 19:31:47.197311 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+-2256, -2256
+620.477, 30.854
+595.232, 27.5506
+E0207 19:31:47.994832 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+226.121, 449.718
+333.01, 456.758
+E0207 19:31:49.015018 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+695.111, 192.863
+2256, 0
+695.667, 255.327
+E0207 19:31:49.996708 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+237.023, 437.122
+0, 2256
+152.183, 434.633
+E0207 19:31:50.797335 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+-2256, -2256
+92.0526, 170.835
+93.1442, 288.151
+E0207 19:31:51.796075 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+78.7135, 269.028
+-2256, -2256
+83.9274, 144.347
+E0207 19:31:52.797031 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+672.837, 58.8068
+2256, 0
+684.53, 268.184
+E0207 19:31:53.797745 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+2256, 0
+0, 2256
+655.871, 426.207
+E0207 19:31:54.595814 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+665, 406
+683.131, 395.009
+E0207 19:31:55.600632 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+592.701, 36.5499
+2256, 0
+628.198, 58.8808
+E0207 19:31:56.400303 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+2256, 0
+643.541, 417.618
+688.888, 322.871
+E0207 19:31:57.401059 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+492.665, 16.8698
+2256, 0
+642.195, 48.9761
+E0207 19:31:58.200876 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+688.596, 179.448
+2256, 0
+692.283, 226.74
+E0207 19:31:59.196745 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+0, 2256
+2256, 0
+-2256, -2256
+E0207 19:31:59.997762 153061 Mesher.cpp:1811] Delaunay Triangle out of image (size: x: 0, y: 0, height: 480, width 752
+ Triangle: x, y: 
+279.545, 12.139
+-2256, -2256
+325.859, 8.83719
