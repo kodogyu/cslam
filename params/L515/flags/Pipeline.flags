@@ -36,3 +36,4 @@
 --log_feature_tracks=false
 --log_mono_tracking_images=false
 --log_stereo_matching_images=false
+--log_rgbd_tracking_images=false
