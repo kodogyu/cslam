@@ -154,7 +154,9 @@ int main(int argc, char** argv) {
   ros::init(argc, argv, "rosbag_synchronizer");
   RosbagSynchronizer rosbag_synchronizer;
   ROS_INFO("node created");
+  
   rosbag_synchronizer.synchronize();
   
+  ros::shutdown();
   return 0;
 }
