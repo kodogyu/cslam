@@ -1,0 +1,43 @@
+<launch>
+    <!-- Flags -->
+    <!-- if "flag_step" set true, the node processes frames step by step -->
+    <arg name="flag_step" default="true"/>
+    <!-- if "flag_continue" set true, the node takes the next step -->
+    <arg name="flag_continue" default="false"/>
+
+    <!-- Bag file paths -->
+    <arg name="bag_dir" default="/home/kodogyu/Datasets/rosbags"/>
+    <arg name="input_filename" default="$(arg bag_dir)/l515_imu_synchronized.bag"/>
+    <arg name="output_filename" default="$(arg bag_dir)/l515_imu_synchronized_stereo.bag"/>
+
+    <!-- Topics -->
+    <arg name="color_topic" default="/camera/color/image_raw"/>
+    <arg name="color_info" default="/camera/color/camera_info"/>
+    <arg name="depth_topic" default="/camera/depth/image_rect_raw"/>
+    <arg name="depth_info" default="/camera/depth/camera_info"/>
+    <arg name="accel_topic" default="/camera/accel/sample"/>
+    <arg name="gyro_topic" default="/camera/gyro/sample"/>
+    <arg name="imu_topic" default="/camera/imu"/>
+    <arg name="tf_topic" default="/tf_static"/>
+
+
+    <!-- Run the node -->
+    <node name="make_stereo" pkg="cslam" type="make_stereo" output="screen">
+        <!-- flags -->
+        <param name="flag_continue" type="bool" value="$(arg flag_continue)"/>
+        <param name="flag_step" type="bool" value="$(arg flag_step)"/>
+        <!-- Bag file paths -->
+        <param name="input_filename" type="string" value="$(arg input_filename)"/>
+        <param name="output_filename" type="string" value="$(arg output_filename)"/>
+        <!-- Topics -->
+        <param name="color_topic" type="string" value="$(arg color_topic)"/>
+        <param name="color_info" type="string" value="$(arg color_info)"/>
+        <param name="depth_topic" type="string" value="$(arg depth_topic)"/>
+        <param name="depth_info" type="string" value="$(arg depth_info)"/>
+        <param name="accel_topic" type="string" value="$(arg accel_topic)"/>
+        <param name="gyro_topic" type="string" value="$(arg gyro_topic)"/>
+        <param name="imu_topic" type="string" value="$(arg imu_topic)"/>
+        <param name="tf_topic" type="string" value="$(arg tf_topic)"/>
+    </node>
+
+</launch>

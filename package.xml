@@ -63,6 +63,7 @@
   <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>rosbag</depend>
+  <depend>cv_bridge</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
