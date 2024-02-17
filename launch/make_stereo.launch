@@ -7,18 +7,30 @@
 
     <!-- Bag file paths -->
     <arg name="bag_dir" default="/home/kodogyu/Datasets/rosbags"/>
-    <arg name="input_filename" default="$(arg bag_dir)/l515_imu_synchronized.bag"/>
-    <arg name="output_filename" default="$(arg bag_dir)/l515_imu_synchronized_stereo.bag"/>
+    <!-- <arg name="input_filename" default="$(arg bag_dir)/l515_kalibr_6x6_2024-02-14-22-58-30.bag"/> -->
+    <!-- <arg name="output_filename" default="$(arg bag_dir)/l515_horizontal_stereo.bag"/> -->
+    <arg name="input_filename" default="/home/kodogyu/kimera_multi_ws/src/cslam/l515_kalibr/april_6x6/l515_kalibr_6x6_2024-02-14-22-58-30.bag"/>
+    <arg name="output_filename" default="/home/kodogyu/kimera_multi_ws/src/cslam/l515_kalibr_stereo/april_6x6_stereo/l515_april_grid_6x6_stereo.bag"/>
 
     <!-- Topics -->
+    <arg name="right_topic" default="/camera/color_right/image_raw"/>
     <arg name="color_topic" default="/camera/color/image_raw"/>
     <arg name="color_info" default="/camera/color/camera_info"/>
-    <arg name="depth_topic" default="/camera/depth/image_rect_raw"/>
-    <arg name="depth_info" default="/camera/depth/camera_info"/>
+    <arg name="depth_topic" default="/camera/aligned_depth_to_color/image_raw"/>
+    <arg name="depth_info" default="/camera/aligned_depth_to_color/camera_info"/>
     <arg name="accel_topic" default="/camera/accel/sample"/>
     <arg name="gyro_topic" default="/camera/gyro/sample"/>
     <arg name="imu_topic" default="/camera/imu"/>
     <arg name="tf_topic" default="/tf_static"/>
+
+    <!-- Frame id -->
+    <arg name="right_frame_id" default="camera_color_right_optical_frame"/>
+
+    <!-- Focal length -->
+    <!-- f_x = 594.016, f_y = 592.208 -->
+    <arg name="focal_length" default="585"/>
+    <!-- baseline (mm) -->
+    <arg name="baseline" default="10"/>
 
 
     <!-- Run the node -->
@@ -30,6 +42,7 @@
         <param name="input_filename" type="string" value="$(arg input_filename)"/>
         <param name="output_filename" type="string" value="$(arg output_filename)"/>
         <!-- Topics -->
+        <param name="right_topic" type="string" value="$(arg right_topic)"/>
         <param name="color_topic" type="string" value="$(arg color_topic)"/>
         <param name="color_info" type="string" value="$(arg color_info)"/>
         <param name="depth_topic" type="string" value="$(arg depth_topic)"/>
@@ -38,6 +51,14 @@
         <param name="gyro_topic" type="string" value="$(arg gyro_topic)"/>
         <param name="imu_topic" type="string" value="$(arg imu_topic)"/>
         <param name="tf_topic" type="string" value="$(arg tf_topic)"/>
+
+        <!-- Frame id -->
+        <param name="right_frame_id" type="string" value="$(arg right_frame_id)"/>
+        
+        <!-- Focal length -->
+        <param name="focal_length" type="double" value="$(arg focal_length)"/>
+        <!-- baseline (mm) -->
+        <param name="baseline" type="double" value="$(arg baseline)"/>
     </node>
 
 </launch>
