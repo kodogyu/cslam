@@ -1,0 +1,30 @@
+Calibration results 
+====================
+Camera-system parameters:
+cam0 (/camera/color/image_raw):
+    type: <class 'aslam_cv.libaslam_cv_python.DistortedPinholeCameraGeometry'>
+    distortion: [nan nan nan nan] +- [nan nan nan nan]
+    projection: [nan nan nan nan] +- [nan nan nan nan]
+    reprojection error: [nan, nan] +- [nan, nan]
+
+cam1 (/camera/color_right/image_raw):
+    type: <class 'aslam_cv.libaslam_cv_python.DistortedPinholeCameraGeometry'>
+    distortion: [nan nan nan nan] +- [nan nan nan nan]
+    projection: [nan nan nan nan] +- [nan nan nan nan]
+    failed printing the reprojection error!
+
+baseline T_1_0:
+    q: [nan nan nan nan] +- [nan nan nan]
+    t: [nan nan nan] +- [nan nan nan]
+
+
+
+Target configuration
+====================
+
+  Type: aprilgrid
+  Tags: 
+    Rows: 6
+    Cols: 6
+    Size: 0.003 [m]
+    Spacing 0.001101 [m]
