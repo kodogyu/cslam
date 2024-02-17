@@ -1,18 +1,20 @@
 #!/bin/bash
---log_output=false
+--log_output=true
 --backend_type=1
 --regular_vio_backend_modality=0
 --deterministic_random_number_generator=true
 
 # 2D Visualization
---visualize_feature_predictions=false
+--visualize_feature_predictions=true
 --visualize_feature_tracks=true
 
 # 3D Visualization
 --visualize=true
---visualize_lmk_type=false
+# modified (was false)
+--visualize_lmk_type=true
 --visualize_mesh=true
---visualize_mesh_2d=false
+# modified (was false)
+--visualize_mesh_2d=true
 --visualize_mesh_with_colored_polygon_clusters=false
 --visualize_point_cloud=true
 --visualize_convex_hull=false
@@ -31,8 +33,13 @@
 --extract_planes_from_the_scene=false
 
 # For displaying/saving Frontend images:
---visualize_frontend_images=false
---save_frontend_images=false
---log_feature_tracks=false
---log_mono_tracking_images=false
---log_stereo_matching_images=false
+# modified (was false)
+--visualize_frontend_images=true
+# modified (was false)
+--save_frontend_images=true
+# modified (was false)
+--log_feature_tracks=true
+# modified (was false)
+--log_mono_tracking_images=true
+# modified (was false)
+--log_stereo_matching_images=true
