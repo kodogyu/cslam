@@ -1,0 +1,16 @@
+<launch>
+    <!-- Flags -->
+    <!-- if "flag_step" set true, the node processes frames step by step -->
+    <arg name="frequency" default="3"/>
+
+    <!-- File name -->
+    <arg name="filename" default="/home/kodogyu/kimera_multi_ws/src/kimera_ros/output_logs/L515_stereo/traj_vio.csv"/>
+
+    <!-- Run the node -->
+    <node name="simple_path_visualizer" pkg="cslam" type="simple_path_visualizer" output="screen">
+        <!-- flags -->
+        <param name="frequency" type="int" value="$(arg frequency)"/>
+        <param name="filename" type="string" value="$(arg filename)"/>
+    </node>
+
+</launch>

@@ -12,13 +12,17 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   sensor_msgs
+  nav_msgs
   rosbag
   cv_bridge
 )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
+find_package(Eigen3 REQUIRED)
+find_package(Pangolin REQUIRED)
+find_package(GFLAGS REQUIRED)
+set(myslam_PATH /home/kodogyu/slambook2/ch13)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -121,12 +125,19 @@ catkin_package(
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
+  ${EIGEN3_INCLUDE_DIRS}
+  ${myslam_PATH}/include
 )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/cslam.cpp
 # )
+add_library(myslam SHARED IMPORTED)
+set_target_properties(myslam PROPERTIES IMPORTED_LOCATION
+  ${myslam_PATH}/lib/libmyslam.so
+)
+
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -140,6 +151,9 @@ include_directories(
 add_executable(unite_imu src/unite_imu.cpp)
 add_executable(rosbag_synchronizer src/rosbag_synchronizer.cpp)
 add_executable(make_stereo src/make_stereo.cpp)
+add_executable(simple_path_visualizer src/simple_path_visualizer.cpp)
+add_executable(path_visualizer src/path_visualizer.cpp)
+add_executable(myslam_node src/myslam_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -158,6 +172,13 @@ add_executable(make_stereo src/make_stereo.cpp)
 target_link_libraries(unite_imu ${catkin_LIBRARIES})
 target_link_libraries(rosbag_synchronizer ${catkin_LIBRARIES})
 target_link_libraries(make_stereo ${catkin_LIBRARIES})
+target_link_libraries(simple_path_visualizer ${catkin_LIBRARIES})
+target_link_libraries(path_visualizer ${catkin_LIBRARIES})
+target_link_libraries(myslam_node 
+    ${catkin_LIBRARIES}
+    ${Pangolin_LIBRARIES}
+    gflags
+    myslam)
 
 #############
 ## Install ##
